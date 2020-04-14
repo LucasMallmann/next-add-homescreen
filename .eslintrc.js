@@ -2,6 +2,7 @@ module.exports = {
   env: {
     es6: true,
     'jest/globals': true,
+    browser: true,
   },
   extends: ['plugin:react/recommended', 'airbnb'],
   globals: {
